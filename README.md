@@ -29,22 +29,12 @@ Dans ce dépôt :
 Ces fichiers ont été nettoyés et segmentés à l’aide d’Excel et de requêtes SQL pour faciliter l’analyse (sélection de colonnes pertinentes, filtrage des lignes manquantes, normalisation de certains champs).
 
 Structure du dépôt :
-.
-├── README.md
-├── data/
-│   ├── owid-covid-data.csv
-│   ├── CovidDeaths.csv
-│   └── CovidVaccination.csv
-├── sql/
-│   └── Corona_Covid19.sql
-└── docs/
-    └── Corona_Covid19_Dashboard.pdf
 
-data/ : contient les fichiers CSV bruts/transformés utilisés pour alimenter la base MySQL et le dashboard.
+- Corona_Covid19.sql : script SQL contenant la création des tables, l’import (selon ta configuration) et surtout les requêtes d’analyse (KPI, agrégations, vues, etc.).
 
-sql/Corona_Covid19.sql : script SQL contenant la création des tables, l’import (selon ta configuration) et surtout les requêtes d’analyse (KPI, agrégations, vues, etc.).
+- Corona_Covid19_Dashboard.pdf : export du dashboard Looker Studio au format PDF (aperçu des visualisations finales).
 
-docs/Corona_Covid19_Dashboard.pdf : export du dashboard Looker Studio au format PDF (aperçu des visualisations finales).
+- visualisation.sql : script SQL dédié aux requêtes d’analyse et de reporting, incluant les calculs de KPI (cas, décès, vaccinations, ratios par million), les agrégations temporelles (journalières, cumulées) et la création de vues prêtes à être consommées par le dashboard Looker Studio.
 
 Indicateurs et visualisations : 
 Le dashboard met en avant plusieurs types de visualisations :
