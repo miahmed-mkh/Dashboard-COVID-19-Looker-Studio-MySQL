@@ -9,7 +9,7 @@
 ![XAMPP](https://img.shields.io/badge/XAMPP-FB7A24?style=for-the-badge&logo=xampp&logoColor=white)
 ![ETL](https://img.shields.io/badge/Process-ETL-blue)
 
-Dashboard d’analyse de l’impact de la pandémie de COVID‑19 construit à partir des données publiques de Our World in Data, avec une chaîne BI complète : collecte, nettoyage et transformation des données, stockage dans MySQL, requêtes SQL d’analyse et visualisation interactive avec Looker Studio.
+Dashboard d’analyse de l’impact de la pandémie de COVID‑19 construit à partir des données publiques de Our World in Data, avec une chaîne BI complète : collecte, nettoyage et transformation des données, stockage dans PostgreSQL, requêtes SQL d’analyse et visualisation interactive avec Looker Studio.
 
 Objectifs du projet : 
 - Analyser l’évolution de la pandémie (cas, décès, tests, vaccinations) par pays, continent et période temporelle.
